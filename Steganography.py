@@ -85,11 +85,11 @@ def retr(filename):
 def main():
     # Example usage:
     # Hide a message
-    #hidden_message = hide('/workspaces/140695354/Cs50x/project/bg-project.png', 'This is a secret message.')
-    #print(hidden_message)  # Output: "Completed!" if successful
+    hidden_message = hide('Your-image-path', 'This is a secret message.')
+    print(hidden_message)  # Output: "Completed!" if successful
 
     # Retrieve a hidden message
-    secret = retr('/workspaces/140695354/Cs50x/project/bg-project.png')
+    secret = retr('Your-image-path')
     print(secret)  # Output: "This is a secret message." if successful
 
 if __name__ == "__main__":
